@@ -1,0 +1,14 @@
+{
+  "extends": "stylelint-config-prettier",
+  "plugins": [
+    "stylelint-order",
+    "stylelint-prettier"
+  ],
+  "rules": {
+    "prettier/prettier": true,
+    "indentation": 4,
+    "declaration-colon-newline-after": null,
+    "value-list-comma-newline-after": "never-multi-line",
+    "order/properties-alphabetical-order": true
+  }
+}
