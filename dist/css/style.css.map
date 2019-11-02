@@ -1,0 +1,24 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../../src/scss/style.scss",
+		"../../src/scss/foundation/_reset.scss",
+		"../../src/scss/foundation/_base.scss",
+		"../../layout/*",
+		"../../src/scss/layout/_footer.scss",
+		"../../src/scss/layout/_header.scss",
+		"../../src/scss/layout/_main.scss",
+		"../../object/component/*",
+		"../../src/scss/object/component/_avatar.scss",
+		"../../src/scss/object/component/_button.scss",
+		"../../object/project/*",
+		"../../src/scss/object/project/_articles.scss",
+		"../../src/scss/object/project/_comments.scss",
+		"../../object/utility/*",
+		"../../src/scss/object/utility/_align.scss",
+		"../../src/scss/object/utility/_margin.scss"
+	],
+	"names": [],
+	"mappings": "AAAA;;+BAE+B;ACF/B,AAAA,CAAC;AACD,CAAC,AAAA,QAAQ;AACT,CAAC,AAAA,OAAO,CAAC;EACL,UAAU,EAAE,UAAU;CACzB;;ADGD;;+BAE+B;AIT/B,AAAA,MAAM,CAAC;EACH,KAAK,EFAG,OAAO;CEClB;;ACFD,AAAA,MAAM,CAAC;EACH,KAAK,EHAG,OAAO;CGClB;;ACFD,AAAA,IAAI,CAAC;EACD,KAAK,EJAG,OAAO;CIClB;;ANWD;+BAC+B;AAE/B,4BAA4B;AAI5B,0BAA0B;AAI1B,0BAA0B"
+}

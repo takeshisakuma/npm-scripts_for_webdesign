@@ -1,0 +1,30 @@
+/**
+* Foundation
+* ========================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/**
+* Layout
+* ========================== */
+footer {
+  color: #333333;
+}
+
+header {
+  color: #333333;
+}
+
+main {
+  color: #333333;
+}
+
+/* Object
+* ========================== */
+/* Component ------------ */
+/* Project ------------ */
+/* Utility ------------ */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9zY3NzL3N0eWxlLnNjc3MiLCJzdHlsZS5jc3MiLCIuLi8uLi9zcmMvc2Nzcy9mb3VuZGF0aW9uL19yZXNldC5zY3NzIiwiLi4vLi4vc3JjL3Njc3MvbGF5b3V0L19mb290ZXIuc2NzcyIsIi4uLy4uL3NyYy9zY3NzL2ZvdW5kYXRpb24vX2Jhc2Uuc2NzcyIsIi4uLy4uL3NyYy9zY3NzL2xheW91dC9faGVhZGVyLnNjc3MiLCIuLi8uLi9zcmMvc2Nzcy9sYXlvdXQvX21haW4uc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7OEJDRThCO0FDRjlCOzs7RUFHSSxzQkFBc0I7QURJMUI7O0FEQUE7OzhCQ0k4QjtBRVg5QjtFQUNJLGNDQWU7QUhhbkI7O0FJZEE7RUFDSSxjREFlO0FIaUJuQjs7QUtsQkE7RUFDSSxjRkFlO0FIcUJuQjs7QURUQTs4QkNZOEI7QURUOUIsMkJBQUE7QUFJQSx5QkFBQTtBQUlBLHlCQUFBIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */

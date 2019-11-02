@@ -1,3 +1,3 @@
 let message = "aaa";
 console.log("Hello!" + message);
-console.log("typescript compiled");
+console.log("JavaScript copied");
