@@ -1,5 +1,3 @@
-"use strict";
-var message = "aaa";
+let message = "aaa";
 console.log("Hello!" + message);
-console.log("typescript compiled");
-//# sourceMappingURL=main.js.map
+console.log("JavaScript copied");
