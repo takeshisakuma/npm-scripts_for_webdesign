@@ -15,16 +15,16 @@ pug、scss、typescriptのコンパイル、browserSync、画像の圧縮、コ�
 ## 変更
 各種設定ファイルは必要に応じて変更してください。
 
-ejs、stylusのコンパイルをする場合は、package.jsonを書き換えてください。
+ejs、stylusのコンパイルをする、TypeScriptではなくJavaScriptを直接書く場合は、package.jsonを書き換えてください。
 
 ```
 "watch:all": "run-p watch:pug2html watch:scss2cssprefix watch:ts watch:img start:server"
 //↓
-"watch:all": "run-p watch:ejs2html watch:stylus2cssprefix watch:ts watch:img start:server"
+"watch:all": "run-p watch:ejs2html watch:stylus2cssprefix watch:js watch:img start:server"
 
 "format:all": "run-p format:scss format:ts"
 //↓
-"format:all": "run-p format:stylus format:ts"
+"format:all": "run-p format:stylus format:js"
 ```
 
 ## その他
