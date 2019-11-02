@@ -1,6 +1,6 @@
 # npm-scripts_for_webdesign
 
-pug、scss、typescriptのコンパイル、browserSync、画像の圧縮、コードの整形、公開時の不要ファイルの削除、圧縮ができます。
+pug(ejs)、scss(stylus)、typescriptのコンパイル、browserSync、画像の圧縮、コードの整形、公開時の不要ファイルの削除、圧縮ができます。
 
 ## 準備
 1. git cloneして、フォルダの中に入ります。
