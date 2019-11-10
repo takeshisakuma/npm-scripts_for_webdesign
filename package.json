@@ -28,7 +28,7 @@
     "copy:apple-touch-iconpng": "cpx \"src/apple-touch-icon.png\" dist/",
     "delete:dist": "rimraf dist",
     "prewatch:all": "run-s delete:dist copy:sitemapxml copy:robotstxt copy:humanstxt copy:manifestjson copy:faviconico copy:apple-touch-iconpng",
-    "watch:all": "run-p watch:pug2html watch:scss2cssprefix watch:ts watch:img start:server",
+    "watch:all": "run-p watch:ejs2html watch:scss2cssprefix watch:ts watch:img start:server",
     "lint:scss": "stylelint \"**/*.scss\"",
     "format:scss": "stylelint --fix \"**/*.scss\"",
     "format:stylus": "stylus-supremacy format src/**/*.styl -p .stylintrc.json -r",
