@@ -1,0 +1,2 @@
+# URLを書き換えて、コメントアウト(#)を消してください。
+# Sitemap: http://www.example.com/sitemap.xml
