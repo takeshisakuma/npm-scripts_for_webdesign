@@ -28,7 +28,7 @@
     "copy:apple-touch-iconpng": "cpx \"src/apple-touch-icon.png\" dist/",
     "delete:dist": "rimraf dist",
     "prewatch:all": "run-s delete:dist copy:sitemapxml copy:robotstxt copy:humanstxt copy:manifestjson copy:faviconico copy:apple-touch-iconpng",
-    "watch:all": "run-p watch:pug2html watch:scss2cssprefix watch:ts watch:img start:server",
+    "watch:all": "run-p watch:ejs2html watch:stylus2cssprefix watch:js watch:img start:server",
     "lint:scss": "stylelint \"**/*.scss\"",
     "format:scss": "stylelint --fix \"**/*.scss\"",
     "format:stylus": "stylus-supremacy format src/**/*.styl -p .stylintrc.json -r",
@@ -46,13 +46,14 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
     "autoprefixer": "^9.8.2",
     "browser-sync": "^2.26.7",
     "chokidar-cli": "^2.1.0",
     "clean-css-cli": "^4.3.0",
     "cpx": "^1.5.0",
     "ejs-cli": "^2.2.0",
-    "eslint": "^6.8.0",
+    "eslint": "^7.3.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
     "imagemin-cli": "^6.0.0",
@@ -68,7 +69,7 @@
     "postcss-cli": "^7.1.1",
     "prettier": "^2.0.5",
     "pug-cli": "github:pugjs/pug-cli#master",
-    "stylelint-order": "^3.1.1",
+    "stylelint-order": "^4.1.0",
     "stylelint-prettier": "^1.1.2",
     "stylelint-scss": "^3.18.0",
     "stylint": "^2.0.0",
@@ -77,11 +78,10 @@
     "uglify-es": "^3.3.9"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.34.0",
-    "@typescript-eslint/parser": "^2.34.0",
+    "@typescript-eslint/parser": "^3.4.0",
     "rimraf": "^3.0.2",
-    "stylelint": "^12.0.1",
-    "stylelint-config-prettier": "^6.0.0",
+    "stylelint": "^13.6.1",
+    "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-recommended-scss": "^4.2.0",
     "typescript": "^3.9.5"
   }
